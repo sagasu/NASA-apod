@@ -1,5 +1,8 @@
 # NASA-apod
 
+![apod](./apod.png)  
+  
+  
 Simple picture of the day from [NASA API](https://api.nasa.gov/). Make sure you subscribe to api and generate a key for a configuration.
 
 # Config

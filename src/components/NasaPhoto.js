@@ -24,8 +24,10 @@ export const NasaPhoto = () => {
     return (
         <>
             <NavBar />
-            <div>
-                {media_type === "image" ? (<img 
+            <div className="nasa-photo">
+                {media_type === "image" ? (
+                <img
+                    className="photo"
                     src={url}
                     alt={title}
                 />) : (
@@ -42,8 +44,8 @@ export const NasaPhoto = () => {
                 
                 <div>
                     <h1>{title}</h1>
-                    <p>{date}</p>
-                    <p>{explanation}</p>
+                    <p className="date">{date}</p>
+                    <p className="explanation">{explanation}</p>
                 </div>
             </div>
         </>
