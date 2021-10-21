@@ -8,7 +8,7 @@ import {NasaPhoto} from "./components/NasaPhoto";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <Route component={Home} path="/" exact />
         <Route component={NasaPhoto} path="/nasaphoto" />
       </div>
